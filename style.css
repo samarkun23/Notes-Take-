@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100ch;
+    background-image: url('images/zoro.jpg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    padding-top: 4%;
+    padding-left: 7%;
+}
+.container h1{
+    color: rgb(107, 245, 77);
+    font-family: fangsong;
+    font-size: 37px;
+    color: rgb(165 108 239);
+}
+h1 img{
+    height: 227px;
+    margin: -79px;
+    margin-top: -42px;
+    margin-bottom: -92px;
+    margin-right: -95px;
+}
+.container button{
+    margin-top: 27px;
+    margin-left: 213px;
+}
+.container button img{
+    width: 25px;
+    margin-right: 8px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+    margin-left: 43px;
+    background-color: #a84feb;
+    font-size: 21px;
+    font-family: cursive;
+    font-weight: 600;
+    color: #15181a;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px;
+    outline: none;
+    border-radius: 7px;
+
+}
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
